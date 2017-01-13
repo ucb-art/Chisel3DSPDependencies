@@ -3,7 +3,7 @@ Chisel3 DSP Dependencies
 
 This repo is used to track Chisel3 DSP-specific dependencies, as they get updated. 
 
-> Note that using this repo requires you to have Verilator ([Install instructions](https://www.veripool.org/projects/verilator/wiki/Installing)) & SBT. This does not use FIRRTL interpreter for tests, due to the fact that designs typically use multiple clocks. 
+> Note that using this repo requires you to have Verilator ([Install instructions](https://www.veripool.org/projects/verilator/wiki/Installing)) & SBT. Even though the submodule is included, you should ideally not use FIRRTL interpreter for tests, due to the fact that designs typically use multiple clocks. 
 
 ##Use
 
@@ -22,6 +22,8 @@ DSP Features (Fixed-point, etc. + custom DSP testers) on top of Chisel/Chisel Te
 
 * **ucb-bar/chisel-testers**
 Testing infrastructure for Chisel.
+
+* **ucb-bar/firrtl-interpreter**
 
 * **ucb-bar/chisel3**
 Chisel, which compiles to Verilog via FIRRTL.
