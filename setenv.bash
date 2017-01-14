@@ -8,3 +8,5 @@ pathadd() {
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pathadd $DIR/firrtl/utils/bin
+
+export Chisel3DSPDependenciesCommit="$(git rev-parse HEAD)"
