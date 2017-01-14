@@ -15,7 +15,9 @@ When you're starting a new session, if you haven't done either of the above, `so
 
 If updating makes things appear wonky, it's also recommended that you try `sbt clean` and removing files in your *~/.ivy2/local* directory.
 
-> Note that `sbt publish-local` will fail on **dsptools**, because there's currently a silly requirement that DSP stuff be dependent on rocket-chip. However, everything that you need for creating DSP blocks should be published properly. 
+> Note that `sbt publish-local` will fail on **dsptools**, because there's currently a silly requirement that DSP stuff be dependent on rocket-chip (*testchipip and rocketchip*). However, everything that you need for creating DSP blocks should be published properly. 
+
+By publishing local, you can include any of these submodules as dependencies for your DSP designs. See [ucb-art/Chisel3DSPExample](https://github.com/ucb-art/Chisel3DSPExample). 
 
 ##Submodules
 
