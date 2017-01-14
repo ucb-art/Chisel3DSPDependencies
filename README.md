@@ -15,6 +15,8 @@ When you're starting a new session, if you haven't done either of the above, `so
 
 If updating makes things appear wonky, it's also recommended that you try `sbt clean` and removing files in your *~/.ivy2/local* directory.
 
+> Note that `sbt publish-local` will fail on **dsptools**, because there's currently a silly requirement that DSP stuff be dependent on rocket-chip. However, everything that you need for creating DSP blocks should be published properly. 
+
 ##Submodules
 
 * **ucb-bar/dsptools**

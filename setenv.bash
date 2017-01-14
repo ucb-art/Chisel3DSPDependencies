@@ -1,3 +1,10 @@
 #!/bin/bash
+
+pathadd() {
+    if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
+        export PATH="${PATH:+"$PATH:"}$1"
+    fi
+}
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-export PATH=$DIR/firrtl/utils/bin:$PATH
+pathadd $DIR/firrtl/utils/bin
