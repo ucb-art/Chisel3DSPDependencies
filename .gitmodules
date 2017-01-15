@@ -1,6 +1,6 @@
 [submodule "chisel-testers"]
 	path = chisel-testers
-	url = git@github.com:ucb-bar/chisel-testers.git
+	url = git@github.com:ucb-art/chisel-testers.git
 [submodule "dsptools"]
 	path = dsptools
 	url = git@github.com:ucb-bar/dsptools.git
