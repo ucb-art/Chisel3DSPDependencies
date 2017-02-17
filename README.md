@@ -24,7 +24,7 @@ By publishing local, you can include any of these submodules as dependencies for
 ##Submodules
 
 * **ucb-bar/dsptools**
-DSP Features (Fixed-point, etc. + custom DSP testers) on top of Chisel/Chisel Testers. 
+DSP Features (Fixed-point, etc. + custom DSP testers) on top of Chisel/Chisel Testers. For a detailed list of supported features and examples, check out the [README](https://github.com/ucb-bar/dsptools/blob/add_ops/src/main/scala/dsptools/numbers/README.md)!
 
 * **ucb-bar/chisel-testers**
 Testing infrastructure for Chisel.
