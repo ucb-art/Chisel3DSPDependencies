@@ -13,3 +13,6 @@
 [submodule "firrtl-interpreter"]
 	path = firrtl-interpreter
 	url = git@github.com:ucb-bar/firrtl-interpreter.git
+[submodule "barstools"]
+	path = barstools
+	url = git@github.com:ucb-bar/barstools.git
